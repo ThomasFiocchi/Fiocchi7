@@ -1,0 +1,5 @@
+1. In the case of magnification, the texel is larger than one pixel. In the case of minification, the texel is smaller than one pixel. These are both used in the mip mapping process to generate precise and detailed images.
+
+2. Mip mapping is used as a solution to the problem of minimification of texels, this is done by automatically using the appropriate size texture in the pyramid of textures, the one for which the texel is approximately the size of a pixel. 
+
+3. an environment map allows us to create images that have the appearance of reflected materials without having to trace reflected rays. This is used to paint an image of an environment onto a surface. 
